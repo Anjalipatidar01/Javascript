@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p>
+		firstnumber:<input type="" name="" id='t' value=" "/>
+
+	</p>
+	<p>
+		secondnumber:<input type="" name="" id='t1' value=" "/>
+	</p>
+	<button onclick="add()">Add them</button>
+	<button onclick="sub()">sub them</button>
+	<button onclick="mul()">mul them</button>
+	<button onclick="div()">div them</button>
+	<p> 
+		sum=<input id="ans"/>
+	
+	</p>
+	<script type="text/javascript">
+		function add(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById('t').value)
+		num2=parseInt(document.getElementById('t1').value)
+		sum=num1+num2;
+		document.getElementById("ans").value=sum;
+	}
+	function sub(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById('t').value)
+		num2=parseInt(document.getElementById('t1').value)
+		sum=num1-num2;
+		document.getElementById("ans").value=sum;
+	}
+	function mul(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById('t').value)
+		num2=parseInt(document.getElementById('t1').value)
+		sum=num1*num2;
+		document.getElementById("ans").value=sum;
+	}
+	function div(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById('t').value)
+		num2=parseInt(document.getElementById('t1').value)
+		sum=num1/num2;
+		document.getElementById("ans").value=sum;
+	}
+
+
+	</script>
+
+</body>
+
+</body>
+</html>

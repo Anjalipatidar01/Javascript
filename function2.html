@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	
+		Email:<input type="email"value="ANJALIPATIDAR051@gmail.com" id="t" onblur="fun()"/>
+	
+		username:<input type="text" name="" value="anjali" id="t2" onfocus="fun1()"/>
+	<script type="text/javascript">
+		function fun(){
+			let email=document.getElementById("t").value
+			document.getElementById("t").value=email.toLowerCase();
+		}
+		function fun1(){
+			let username=document.getElementById('t2').value
+			document.getElementById('t2').value=username.toUpperCase();
+			
+		}
+	</script>
+
+</body>
+</html>

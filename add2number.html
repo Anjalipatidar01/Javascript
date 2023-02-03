@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p>
+		firstnumber:<input type="" name="" id='t' value=''>
+
+	</p>
+	<p>
+		secondnumber:<input type="" name="" id='t1' value="">
+	</p>
+	<button onclick="add()">Add them</button>
+	<p>sum=<input type="" name="" id="ans">
+	</p>
+	<script type="text/javascript">
+		function add(){
+		let num1,num2,sum;
+		num1=parseInt(document.getElementById('t').value)
+		num2=parseInt(document.getElementById('t1').value)
+		sum=num1+num2;
+		document.getElementById("ans").value=sum;
+	}
+	</script>
+
+</body>
+</html>
